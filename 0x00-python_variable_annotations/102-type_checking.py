@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #Use mypy to validate the following piece of code and apply any necessary changes.
 from typing import Tuple, List
 
