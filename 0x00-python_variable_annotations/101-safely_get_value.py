@@ -9,11 +9,11 @@
 #         return dct[key]
 #     else:
 #         return default
-from typing import Any, Dict, TypeVar, Optional, Union
+from typing import Any, Mapping, TypeVar, Optional, Union
 T = TypeVar('T')
 
 
-def safely_get_value(dct: Dict[Any, T],
+def safely_get_value(dct: Mapping,
                      key: Any,
                      default: Union[T, None] = None
                      ) -> Union[Any, T]:
