@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Type checking excercise"""
 # Use mypy to validate the following piece of code and
 # apply any necessary changes.
 from typing import Tuple, List
